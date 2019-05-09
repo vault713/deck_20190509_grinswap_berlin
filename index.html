@@ -57,10 +57,10 @@
 				<script type="text/template">
 				## Mimblewimble
 				* Blockchain design proposed by Jedusor (2016), improved by Poelstra (2016).
-				* Relies on Confidential Transactions (Maxwell 2016), CoinJoin (Maxwell 2013), and OWAS (Mouton 2013).
+				* Relies on Confidential Transactions (Maxwell 2016), CoinJoin (Maxwell 2013), and OWAS (Mouton 2013)
 				* Scalable: Only UTXO set, block headers and kernels required for full sync.
 				* Fungible: No amounts, no scripts, no addresses, no non-confidentiality, in a simple protocol.
-				* Requires interaction to build transactions. 
+				* Requires interaction to build transactions.
 				</script>
 				</section>
 
@@ -121,7 +121,7 @@
 						```
 						Alice 👱‍♀️ {
 							has: 🍏;
-							wants: 🍊
+							wants: 🍊;
 						}
 						```
 	
@@ -129,8 +129,8 @@
 	
 						```
 						Bob 👨‍🦱 {
-							has: 🍊
-							wants: 🍏
+							has: 🍊;
+							wants: 🍏;
 						}
 						```
 						</div>
@@ -139,7 +139,7 @@
 						
 						```
 						Tom 👨‍⚖️ {
-							trusted_by: 👱‍♀️, 👨‍🦱
+							trusted_by: 👱‍♀️, 👨‍🦱;
 						}
 						```	
 						</div>
@@ -157,16 +157,16 @@
 					// 1. Alice & Bob send to Tom
 					
 					deposit: {
-						👱‍♀️ → 🍏 → 👨‍⚖️
-						👨‍🦱 → 🍊 → 👨‍⚖️
+						👱‍♀️ → 🍏 → 👨‍⚖️;
+						👨‍🦱 → 🍊 → 👨‍⚖️;
 					}
 					
 
 					// 2. Tom sends to Alice & Bob
 					
 					withdrawal: {
-						👨‍⚖️ → 🍊 → 👱‍♀️
-						👨‍⚖️ → 🍏 → 👨‍🦱	
+						👨‍⚖️ → 🍊 → 👱‍♀️;
+						👨‍⚖️ → 🍏 → 👨‍🦱;
 					}
 					```
 				</script>
@@ -177,8 +177,8 @@
 				### Atomic Swaps remove Tom
 				```	
 				swap: {
-					👱‍♀️ → 🍏 → 👨‍🦱
-					👨‍🦱 → 🍊 → 👱‍♀️
+					👱‍♀️ → 🍏 → 👨‍🦱;
+					👨‍🦱 → 🍊 → 👱‍♀️;
 				}
 				```
 
@@ -239,12 +239,12 @@
 								```
 								Alice 👱‍♀️ {
 									has: BTC;
-									wants: GRIN
+									wants: GRIN;
 								}
 
 								Bob 👨‍🦱 {
 									has: GRIN;
-									wants: BTC
+									wants: BTC;
 								}
 								```
 						</script>
