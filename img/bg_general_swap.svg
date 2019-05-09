@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1024" height="768"></rect>
+        <g id="general_swap" transform="translate(103.000000, 41.000000)">
+            <rect id="Rectangle" stroke="#A80036" fill="#DDDDDD" x="313" y="0" width="161" height="686"></rect>
+            <text id="Blockchains" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="342" y="14">Blockchains</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="342" y="200" width="12" height="347"></rect>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="424" y="300" width="12" height="99"></rect>
+            <path d="M139.5,97 L139.5,583" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <path d="M347.5,97 L347.5,583" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <path d="M429.5,97 L429.5,583" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <path d="M690.5,97 L690.5,583" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <text id="Alice" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="116" y="93">Alice</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="139" cy="10" r="9"></circle>
+            <path d="M139,19 L139,51.7857143 M124,28.7142857 L154,28.7142857 M139,51.7857143 L124,70 M139,51.7857143 L154,70" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <text id="Alice" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="116" y="597">Alice</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="139" cy="613" r="9"></circle>
+            <path d="M139,622 L139,654.785714 M124,631.714286 L154,631.714286 M139,654.785714 L124,673 M139,654.785714 L154,673" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <text id="Apples" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="317" y="93">Apples</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="348" cy="59" r="14"></circle>
+            <path d="M334,75.5 L362,75.5" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="Apples" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="317" y="597">Apples</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="348" cy="620" r="14"></circle>
+            <path d="M334,637.5 L362,637.5" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="Oranges" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="393" y="93">Oranges</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="430" cy="59" r="14"></circle>
+            <path d="M416,75.5 L444,75.5" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="Oranges" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="393" y="597">Oranges</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="430" cy="620" r="14"></circle>
+            <path d="M416,637.5 L444,637.5" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="Bob" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="671" y="93">Bob</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="691" cy="10" r="9"></circle>
+            <path d="M690,19 L690,51.7857143 M675,28.7142857 L705,28.7142857 M690,51.7857143 L675,70 M690,51.7857143 L705,70" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <text id="Bob" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="671" y="597">Bob</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="691" cy="613" r="9"></circle>
+            <path d="M690,622 L690,654.785714 M675,631.714286 L705,631.714286 M690,654.785714 L675,673 M690,654.785714 L705,673" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="342" y="200" width="12" height="347"></rect>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="424" y="300" width="12" height="99"></rect>
+            <path d="M139,134.5 L189,134.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M189.5,136 L189.5,151" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M140,150.5 L189,150.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="152 145 140 150 152 155 147.2 150"></polygon>
+            <text id="1" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="147" y="129">1</tspan>
+            </text>
+            <text id="Create-secret-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="163" y="129">Create secret x</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="328 196 340 201 328 206 332.8 201"></polygon>
+            <path d="M138,200.5 L335,200.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="2" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="147" y="193">2</tspan>
+            </text>
+            <text id="Create-Apple-Lockbox" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="162" y="193">Create Apple Lockbox</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="360 166 360 214 591 214 591 178 579.153846 166 360 166"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="580 167 580 179 592 179 580 167"></polyline>
+            <text id="Unlocks-with:-Bob's-key-&amp;-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="367" y="186">Unlocks with: Bob's key &amp; x</tspan>
+            </text>
+            <text id="Expires-in:-48h" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="367" y="203">Expires in: 48h</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="367 245 355 250 367 255 362.2 250"></polygon>
+            <path d="M360,249.5 L690,249.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="3" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="375" y="242">3</tspan>
+            </text>
+            <text id="Inspect-Lockbox" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="390" y="242">Inspect Lockbox</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="449 293 437 298 449 303 444.2 298"></polygon>
+            <path d="M442,298.5 L689,298.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="4" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="457" y="292">4</tspan>
+            </text>
+            <text id="Create-Oranges-Lockbox" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="472" y="292">Create Oranges Lockbox</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="176 265 176 313 414 313 414 277 402.1 265 176 265"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="402 264 402 276 414 276 402 264"></polyline>
+            <text id="Unlocks-with:-Alice's-key-&amp;-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="184" y="285">Unlocks with: Alice's key &amp; x</tspan>
+            </text>
+            <text id="Expires-in:-24h" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="182" y="302">Expires in: 24h</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="409 344 421 349 409 354 413.8 349"></polygon>
+            <path d="M139,348.5 L417,348.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="5" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="147" y="342">5</tspan>
+            </text>
+            <text id="Inspect-Lockbox" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="162" y="342">Inspect Lockbox</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="416 393 428 398 416 403 420.8 398"></polygon>
+            <path d="M139,398.5 L423,398.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="6" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="147" y="392">6</tspan>
+            </text>
+            <text id="Open-box-with-Alice's-key-&amp;-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="162" y="392">Open box with Alice's key &amp; x</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="0 364 0 412 129 412 129 376 117.055556 364 0 364"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="117 363 117 375 129 375 117 363"></polyline>
+            <text id="Alice-receives" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="7" y="383">Alice receives</tspan>
+            </text>
+            <text id="her-Apples" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="8" y="402">her Apples</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="443 443 431 448 443 453 438.2 448"></polygon>
+            <path d="M435,447.5 L689,447.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="7" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="450" y="440">7</tspan>
+            </text>
+            <text id="Notice-Alice-opening-the-box" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="466" y="440">Notice Alice opening the box</tspan>
+            </text>
+            <path d="M690,482.5 L740,482.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M741.5,483 L741.5,498" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M691,497.5 L740,497.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="703 492 691 497 703 502 698.2 497"></polygon>
+            <text id="8" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="698" y="476">8</tspan>
+            </text>
+            <text id="Extract-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="714" y="476">Extract x</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="361 543 349 548 361 553 356.2 548"></polygon>
+            <path d="M354,547.5 L689,547.5" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="9" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="367" y="540">9</tspan>
+            </text>
+            <text id="Open-box-with-Bob's-key-&amp;-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="384" y="540">Open box with Bob's key &amp; x</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="696 513 696 561 819 561 819 525 807.058252 513 696 513"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="807 514 807 526 819 526 807 514"></polyline>
+            <text id="Bob-receives" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="703" y="533">Bob receives</tspan>
+            </text>
+            <text id="his-Oranges" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="704" y="550">his Oranges</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
