@@ -1,0 +1,35 @@
+@startuml
+
+actor Alice
+box "Blockchains"
+entity "BTC"
+entity "GRIN"
+end box
+actor Bob
+
+autonumber
+Alice -> Alice: Create secret x
+Alice -> BTC: Create BTC 2-of-2 MuSig
+note left: Spends with: Bob's key & x\nExpires in: 48h
+activate BTC
+Bob -> BTC: Inspect MuSig
+Bob -> GRIN: Create GRIN 2-of-2 MuSig
+note right: Spends with: aliceSig + bobSig\nExpires in: 24h
+activate GRIN
+Alice -> GRIN: Inspect MuSig
+Alice -> Alice: Create adaptorSig
+note left: adaptorSig = x + aliceSig
+Alice -> Bob: Send adaptorSig
+Bob -> Bob: Verify:\nadaptorSig = x + aliceSig
+note left: But Bob doesn't know neither x nor aliceSig!
+Bob -> Alice: Send bobSig
+Alice -> GRIN: Spend tx with aliceSig + bobSig
+deactivate GRIN
+note left: Alice receives\nher GRIN
+Bob -> GRIN: Notice Alice spending tx
+Bob -> Bob: Use aliceSig to extract x
+note left: x = adaptorSig - aliceSig 
+Bob -> BTC: Spend BTC with Bob's key & x
+note right: Bob receives\nhis BTC
+deactivate BTC
+@enduml

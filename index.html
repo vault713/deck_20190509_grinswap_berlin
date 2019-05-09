@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>GrinSwap @ Binance Labs Meetup, Berlin May 9 2019</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white2.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -29,9 +29,11 @@
 						
 				<section data-markdown>
 				<script type="text/template">
-				# GrinSwap
-				## Binance Labs
-				### Berlin May 9 2019
+				![Text](img/grinswap_vectorized.svg)
+				
+				@lehnberg
+				
+				Binance Labs // FullNode // Berlin // 20190509
 				</script>
 				</section>
 				
@@ -181,9 +183,9 @@
 				```
 
 				
-				1. If both conform to protocol, the trade completes.
+				1. Either both operations happen; or neither.
 
-				1. Cheating does not make the other worse off.
+				1. Cheating does not allow funds to be stolen.
 				</script>
 				</section>
 
@@ -198,7 +200,6 @@
 				### Pros:
 				* No need for 3rd party Tom
 				* No need for trust between Alice & Bob
-				* No fake volumes
 				* Retain custody of assets
 				</script>
 				</section>
@@ -225,13 +226,29 @@
 						<script type="text/template">
 						## GrinSwap
 						* Uses Scripless Scripts / Adaptor Signatures (Poelstra 2017)
-						* Effort led by @jaspervdm, creator of first ETH <-> Grin and BTC <-> Grin atomic swaps. 
+						* vault713 project led by @jaspervdm, creator of first ETH <-> Grin and BTC <-> Grin atomic swaps. 
 						* Open source project supported by Binance Labs fellowships.
 						</script>
 				</section>
 				
 				<!-- <section data-background="img/bg_grin_swap.svg">
 				</section> -->
+
+				<section data-markdown>
+				<script type="text/template">
+								```
+								Alice 👱‍♀️ {
+									has: BTC;
+									wants: GRIN
+								}
+
+								Bob 👨‍🦱 {
+									has: GRIN;
+									wants: BTC
+								}
+								```
+						</script>
+						</section>
 
 				<section data-markdown>
 				<script type="text/template">
@@ -243,8 +260,8 @@
 				<script type="text/template">
 				## Improves privacy
 				* Looks like any other Grin transaction
-				* Hard to link to transactions on other chains
-				* The tx on the other chain looks like a regular 2-of-2 MuSig
+				* The tx on the other chain looks like a 2-of-2 MuSig with a timeout
+				* Harder to link the two together
 				</script>
 				</section>
 
@@ -323,9 +340,10 @@
 
 				<section data-markdown>
 				<script type="text/template">
-				# END
-				* Credits
-				* Contact details
+				# Thank you
+				[daniel@713.mw](mailto:daniel@713.mw)
+
+				keybase/gitter/github/twitter: @lehnberg
 				</script>
 				</section>
 
@@ -344,7 +362,12 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 				    { src: 'plugin/highlight/highlight.js', async: true }
-				]
+				],
+				controls: false,
+				hash: false,
+				center: true,
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+				transitionSpeed: 'default', // default/fast/slow
 			});
 		</script>
 	</body>

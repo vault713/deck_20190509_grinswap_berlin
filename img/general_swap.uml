@@ -1,0 +1,27 @@
+@startuml
+actor Alice
+box "Blockchains"
+entity "Apples"
+entity "Oranges"
+end box
+actor Bob
+
+autonumber
+Alice -> Alice: Create secret x
+Alice -> Apples: Create Apple Lockbox
+note right: Unlocks with: Bob's key & x\nExpires in: 48h
+activate Apples
+Bob -> Apples: Inspect Lockbox
+Bob -> Oranges: Create Oranges Lockbox
+note left: Unlocks with: Alice's key & x\nExpires in: 24h
+activate Oranges
+Alice -> Oranges: Inspect Lockbox
+Alice -> Oranges: Open box with Alice's key & x
+deactivate Oranges
+note left: Alice receives\nher Apples
+Bob -> Oranges: Notice Alice opening the box
+Bob -> Bob: Extract x
+Bob -> Apples: Open box with Bob's key & x
+note right: Bob receives\nhis Oranges
+deactivate Apples
+@enduml
