@@ -130,7 +130,7 @@
                 <tspan x="7" y="383">Alice receives</tspan>
             </text>
             <text id="her-Apples" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
-                <tspan x="8" y="402">her Apples</tspan>
+                <tspan x="8" y="402">her Oranges</tspan>
             </text>
             <polygon id="Path" stroke="#A80036" fill="#A80036" points="443 443 431 448 443 453 438.2 448"></polygon>
             <path d="M435,447.5 L689,447.5" id="Path" stroke="#A80036" fill="#000000"></path>
@@ -164,7 +164,7 @@
                 <tspan x="703" y="533">Bob receives</tspan>
             </text>
             <text id="his-Oranges" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
-                <tspan x="704" y="550">his Oranges</tspan>
+                <tspan x="704" y="550">his Apples</tspan>
             </text>
         </g>
     </g>
