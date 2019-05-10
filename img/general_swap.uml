@@ -18,10 +18,10 @@ activate Oranges
 Alice -> Oranges: Inspect Lockbox
 Alice -> Oranges: Open box with Alice's key & x
 deactivate Oranges
-note left: Alice receives\nher Apples
+note left: Alice receives\nher Oranges
 Bob -> Oranges: Notice Alice opening the box
 Bob -> Bob: Extract x
 Bob -> Apples: Open box with Bob's key & x
-note right: Bob receives\nhis Oranges
+note right: Bob receives\nhis Apples
 deactivate Apples
 @enduml
