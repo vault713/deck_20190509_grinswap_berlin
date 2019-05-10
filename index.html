@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>GrinSwap @ Binance Labs Meetup, Berlin May 9 2019</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/white2.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <img data-src="img/grinswap_vectorized.svg" />
+          <p>
+            <span
+              style="background-color: black; color: white; padding-left:0.5em; padding-right:0.5em;"
+              >vault713</span
+            >
+            @lehnberg
+          </p>
+
+          <p>Binance Labs // FullNode // Berlin // 20190509</p>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Today
+            * Context
+            * Atomic Swaps
+            * GrinSwap
+            * Summary & Questions
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Mimblewimble
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Mimblewimble
+            * Blockchain design proposed by Jedusor (2016), improved by Poelstra (2016).
+            * Relies on Confidential Transactions (Maxwell 2016), CoinJoin (Maxwell 2013), and OWAS (Mouton 2013)
+            * Scalable: Only UTXO set, block headers and kernels required for full sync.
+            * Fungible: No amounts, no scripts, no addresses, no non-confidentiality, in a simple protocol.
+            * Requires interaction to build transactions.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Grin
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Grin
+            * First MW implementation: announced October 2016, launched Jan 2019.
+            * Written in Rust by an open source community funded by voluntary donations.
+            * Proof of Work mined: Friendly to ASICs in the long run, resistant in the short run.
+            * Constant emission rate of 1 Grin/second for ever.
+            * Open, Fair, Honest, Minimal, Rational, Transparent.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Grin tech
+            * Schnorr signatures: Smaller, multi-sig, scriptless scripts, certifiable transactions
+            * Bulletproofs: Smaller ZK range proof for CT
+            * Dandelion: Privacy-preserving transaction propagation and aggregation
+            * Scriptless scripts: Enables atomic swaps in Grin and some other scripting behavior.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # vault713
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## vault713
+            * Building infrastructure to enable a privacy preserving financial system.
+               * [grinbox://](https://grinbox.io) - an open transaction building protocol.
+               * [wallet713](https://wallet.713.mw/) - the Swiss army knife for Grin.
+               * cashier713 - Grin payment processing for pools and exchanges.
+               * freezer713 - Grin cold storage with t-of-n multi-sig.
+            * Boot-strapped in pre-seed stage.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Atomic Swaps
+          </script>
+        </section>
+
+        <section data-markdown>
+          <section id="fragments">
+            <script type="text/template">
+              ```
+              Alice 👱‍♀️ {
+              	has: 🍏;
+              	wants: 🍊;
+              }
+              ```
+
+              <div class="fragment">
+
+              ```
+              Bob 👨‍🦱 {
+              	has: 🍊;
+              	wants: 🍏;
+              }
+              ```
+              </div>
+              <div class="fragment">How can they trade?</div>
+              <div class="fragment">
+
+              ```
+              Tom 👨‍⚖️ {
+              	trusted_by: 👱‍♀️, 👨‍🦱;
+              }
+              ```
+              </div>
+            </script>
+          </section>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Traditional exchange
+            ```
+            // 1. Alice & Bob send to Tom
+
+            deposit: {
+            	👱‍♀️ → 🍏 → 👨‍⚖️;
+            	👨‍🦱 → 🍊 → 👨‍⚖️;
+            }
+
+
+            // 2. Tom sends to Alice & Bob
+
+            withdrawal: {
+            	👨‍⚖️ → 🍊 → 👱‍♀️;
+            	👨‍⚖️ → 🍏 → 👨‍🦱;
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Atomic Swaps remove Tom
+            ```
+            swap: {
+            	👱‍♀️ → 🍏 → 👨‍🦱;
+            	👨‍🦱 → 🍊 → 👱‍♀️;
+            }
+            ```
+
+
+            1. Either both operations happen; or neither.
+
+            1. Cheating does not allow funds to be stolen.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ![Text](img/bg_general_swap.svg)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Pros:
+            * No need for 3rd party Tom
+            * No need for trust between Alice & Bob
+            * Retain custody of assets
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Cons:
+            * Speed
+            * Friction
+            * Efficiency
+            * Vulnerable to surveillance (if same hash is used across chains)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # GrinSwap
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## GrinSwap
+            * Uses Scripless Scripts / Adaptor Signatures (Poelstra 2017)
+            * vault713 project led by @jaspervdm, creator of first ETH <-> Grin and BTC <-> Grin atomic swaps.
+            * Open source project supported by Binance Labs fellowships.
+          </script>
+        </section>
+
+        <!-- <section data-background="img/bg_grin_swap.svg">
+				</section> -->
+
+        <section data-markdown>
+          <script type="text/template">
+            ```
+            Alice 👱‍♀️ {
+            	has: BTC;
+            	wants: GRIN;
+            }
+
+            Bob 👨‍🦱 {
+            	has: GRIN;
+            	wants: BTC;
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ![Text](img/bg_grin_swap.svg)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Improves privacy
+            * Looks like any other Grin transaction
+            * The tx on the other chain looks like a 2-of-2 MuSig with a timeout
+            * Harder to link the two together
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Use cases
+            * Under the radar OTC trading with no Escrow
+            * Privacy-preserving way to trade in and out of Grin
+            * Breaks traceability for other chain assets
+          </script>
+        </section>
+
+        <section>
+          <h2>Roadmap</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Month</th>
+                <th>Deliverable</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>May</td>
+                <td>Rust library foundation</td>
+              </tr>
+              <tr>
+                <td>June</td>
+                <td>ETH / ERC-20 specific requirements</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>wallet713 integration</td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td>BTC support</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Challenges
+            * Lock times
+            * Free option problem
+            * Usability
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Contributing
+            * Github: [/vault713/grinswap](https://github.com/vault713/grinswap)
+            * Gitter: [/vault713/grinswap](https://gitter.im/vault713/grinswap)
+            * Keybase: [@jaspervdm](https://keybase.io/jaspervdm) / [@lehnberg](https://keybase.io/lehnberg)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Summary
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Summary
+            * Atomic swaps enables asset trading without a 3rd party or risking your assets.
+            * It's best suited for specific users and needs.
+            * GrinSwap significantly improves privacy for swaps.
+            * We've just started work, come join us!
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Thank you
+            [daniel@713.mw](mailto:daniel@713.mw)
+
+            keybase/gitter/github/twitter: @lehnberg
+          </script>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ],
+        controls: true,
+        hash: true,
+        center: true,
+        transition: "none", // none/fade/slide/convex/concave/zoom
+        transitionSpeed: "default" // default/fast/slow
+      });
+    </script>
+  </body>
+</html>

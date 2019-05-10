@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1024" height="768"></rect>
+        <g id="grin_swap" transform="translate(73.000000, 17.000000)">
+            <rect id="Rectangle" stroke="#A80036" fill="#DDDDDD" x="374.5" y="1" width="104.5" height="734.9844"></rect>
+            <text id="Blockchains" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="383.25" y="13.0669">Blockchains</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="391" y="169.1289" width="10" height="449.9922"></rect>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="450" y="252.5273" width="10" height="241.0625"></rect>
+            <path d="M202,83.2969 L202,649.6875" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <path d="M395.5,83.2969 L395.5,649.6875" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <path d="M455,83.2969 L455,649.6875" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <path d="M655,83.2969 L655,649.6875" id="Path" stroke="#A80036" fill="#000000" stroke-dasharray="5,5"></path>
+            <text id="Alice" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="183" y="79.9951">Alice</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="202" cy="10" r="8"></circle>
+            <path d="M202,18 L202,45 M189,26 L215,26 M202,45 L189,60 M202,45 L215,60" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <text id="Alice" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="183" y="661.6826">Alice</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="202" cy="674.9844" r="8"></circle>
+            <path d="M202,682.9844 L202,709.9844 M189,690.9844 L215,690.9844 M202,709.9844 L189,724.9844 M202,709.9844 L215,724.9844" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <text id="BTC" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="378.5" y="79.9951">BTC</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="396" cy="51" r="12"></circle>
+            <path d="M384,65 L408,65" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="BTC" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="378.5" y="661.6826">BTC</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="396" cy="680.9844" r="12"></circle>
+            <path d="M384,694.9844 L408,694.9844" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="GRIN" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="435" y="79.9951">GRIN</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="455" cy="51" r="12"></circle>
+            <path d="M443,65 L467,65" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="GRIN" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="435" y="661.6826">GRIN</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="455" cy="680.9844" r="12"></circle>
+            <path d="M443,694.9844 L467,694.9844" id="Path" stroke="#A80036" stroke-width="2" fill="#000000"></path>
+            <text id="Bob" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="638" y="79.9951">Bob</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="655" cy="10" r="8"></circle>
+            <path d="M655,18 L655,45 M642,26 L668,26 M655,45 L642,60 M655,45 L668,60" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <text id="Bob" fill="#000000" font-family="Helvetica" font-size="14" font-weight="normal">
+                <tspan x="638" y="661.6826">Bob</tspan>
+            </text>
+            <circle id="Oval" stroke="#A80036" stroke-width="2" fill="#FEFECE" cx="655" cy="674.9844" r="8"></circle>
+            <path d="M655,682.9844 L655,709.9844 M642,690.9844 L668,690.9844 M655,709.9844 L642,724.9844 M655,709.9844 L668,724.9844" id="Shape" stroke="#A80036" stroke-width="2"></path>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="391" y="169.1289" width="10" height="449.9922"></rect>
+            <rect id="Rectangle" stroke="#A80036" fill="#FFFFFF" x="450" y="252.5273" width="10" height="241.0625"></rect>
+            <path d="M202,114.4297 L244,114.4297" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M244,114.4297 L244,127.4297" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M203,127.4297 L244,127.4297" id="Path" stroke="#A80036" fill="#000000"></path>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="213 123.4297 203 127.4297 213 131.4297 209 127.4297"></polygon>
+            <text id="1" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="209" y="109.3638">1</tspan>
+            </text>
+            <text id="Create-secret-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="222" y="109.3638">Create secret x</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="379 165.1289 389 169.1289 379 173.1289 383 169.1289"></polygon>
+            <path d="M202,169.1289 L385,169.1289" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="2" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="209" y="164.063">2</tspan>
+            </text>
+            <text id="Create-BTC-2-of-2-MuSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="222" y="164.063">Create BTC 2-of-2 MuSig</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="0 140.4297 0 180.4297 193 180.4297 193 150.4297 183 140.4297 0 140.4297"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="183 140.4297 183 150.4297 193 150.4297 183 140.4297"></polyline>
+            <text id="Spends-with:-Bob's-key-&amp;-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="6" y="157.4966">Spends with: Bob's key &amp; x</tspan>
+            </text>
+            <text id="Expires-in:-48h" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="6" y="172.6294">Expires in: 48h</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="412 206.8281 402 210.8281 412 214.8281 408 210.8281"></polygon>
+            <path d="M406,210.8281 L654,210.8281" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="3" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="418" y="205.7622">3</tspan>
+            </text>
+            <text id="Inspect-MuSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="431" y="205.7622">Inspect MuSig</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="471 248.5273 461 252.5273 471 256.5273 467 252.5273"></polygon>
+            <path d="M465,252.5273 L654,252.5273" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="4" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="477" y="247.4614">4</tspan>
+            </text>
+            <text id="Create-GRIN-2-of-2-MuSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="490" y="247.4614">Create GRIN 2-of-2 MuSig</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="660 223.8281 660 263.8281 878 263.8281 878 233.8281 868 223.8281 660 223.8281"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="868 223.8281 868 233.8281 878 233.8281 868 223.8281"></polyline>
+            <text id="Spends-with:-aliceSig-+-bobSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="666" y="240.895">Spends with: aliceSig + bobSig</tspan>
+            </text>
+            <text id="Expires-in:-24h" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="666" y="256.0278">Expires in: 24h</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="438 290.2266 448 294.2266 438 298.2266 442 294.2266"></polygon>
+            <path d="M202,294.2266 L444,294.2266" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="5" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="209" y="289.1606">5</tspan>
+            </text>
+            <text id="Inspect-MuSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="222" y="289.1606">Inspect MuSig</tspan>
+            </text>
+            <path d="M202,323.3594 L244,323.3594" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M244,323.3594 L244,336.3594" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M203,336.3594 L244,336.3594" id="Path" stroke="#A80036" fill="#000000"></path>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="213 332.3594 203 336.3594 213 340.3594 209 336.3594"></polygon>
+            <text id="6" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="209" y="318.2935">6</tspan>
+            </text>
+            <text id="Create-adaptorSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="222" y="318.2935">Create adaptorSig</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="8 308.7266 8 333.7266 193 333.7266 193 318.7266 183 308.7266 8 308.7266"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="183 308.7266 183 318.7266 193 318.7266 183 308.7266"></polyline>
+            <text id="adaptorSig-=-x-+-aliceSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="14" y="325.7935">adaptorSig = x + aliceSig</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="643 361.4922 653 365.4922 643 369.4922 647 365.4922"></polygon>
+            <path d="M202,365.4922 L649,365.4922" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="7" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="209" y="360.4263">7</tspan>
+            </text>
+            <text id="Send-adaptorSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="222" y="360.4263">Send adaptorSig</tspan>
+            </text>
+            <path d="M655,409.7578 L697,409.7578" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M697,409.7578 L697,422.7578" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M656,422.7578 L697,422.7578" id="Path" stroke="#A80036" fill="#000000"></path>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="666 418.7578 656 422.7578 666 426.7578 662 422.7578"></polygon>
+            <text id="8" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="662" y="397.1255">8</tspan>
+            </text>
+            <text id="Verify:" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="675" y="389.5591">Verify:</tspan>
+            </text>
+            <text id="adaptorSig-=-x-+-aliceSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="675" y="404.6919">adaptorSig = x + aliceSig</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="344 387.5586 344 412.5586 646 412.5586 646 397.5586 636 387.5586 344 387.5586"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="636 387.5586 636 397.5586 646 397.5586 636 387.5586"></polyline>
+            <text id="But-Bob-doesn't-know-neither-x-nor-aliceSig!" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="350" y="404.6255">But Bob doesn't know neither x nor aliceSig!</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="213 447.8906 203 451.8906 213 455.8906 209 451.8906"></polygon>
+            <path d="M207,451.8906 L654,451.8906" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="9" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="219" y="446.8247">9</tspan>
+            </text>
+            <text id="Send-bobSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="232" y="446.8247">Send bobSig</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="443 489.5898 453 493.5898 443 497.5898 447 493.5898"></polygon>
+            <path d="M202,493.5898 L449,493.5898" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="10" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="209" y="488.5239">10</tspan>
+            </text>
+            <text id="Spend-tx-with-aliceSig-+-bobSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="231" y="488.5239">Spend tx with aliceSig + bobSig</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="85 464.8906 85 504.8906 193 504.8906 193 474.8906 183 464.8906 85 464.8906"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="183 464.8906 183 474.8906 193 474.8906 183 464.8906"></polyline>
+            <text id="Alice-receives" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="91" y="481.9575">Alice receives</tspan>
+            </text>
+            <text id="her-GRIN" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="91" y="497.0903">her GRIN</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="466 531.2891 456 535.2891 466 539.2891 462 535.2891"></polygon>
+            <path d="M460,535.2891 L654,535.2891" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="11" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="472" y="530.2231">11</tspan>
+            </text>
+            <text id="Notice-Alice-spending-tx" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="494" y="530.2231">Notice Alice spending tx</tspan>
+            </text>
+            <path d="M655,564.4219 L697,564.4219" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M697,564.4219 L697,577.4219" id="Path" stroke="#A80036" fill="#000000"></path>
+            <path d="M656,577.4219 L697,577.4219" id="Path" stroke="#A80036" fill="#000000"></path>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="666 573.4219 656 577.4219 666 581.4219 662 577.4219"></polygon>
+            <text id="12" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="662" y="559.356">12</tspan>
+            </text>
+            <text id="Use-aliceSig-to-extract-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="684" y="559.356">Use aliceSig to extract x</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="467 549.7891 467 574.7891 646 574.7891 646 559.7891 636 549.7891 467 549.7891"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="636 549.7891 636 559.7891 646 559.7891 636 549.7891"></polyline>
+            <text id="x-=-adaptorSig---aliceSig" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="473" y="566.856">x = adaptorSig - aliceSig</tspan>
+            </text>
+            <polygon id="Path" stroke="#A80036" fill="#A80036" points="407 615.1211 397 619.1211 407 623.1211 403 619.1211"></polygon>
+            <path d="M401,619.1211 L654,619.1211" id="Path" stroke="#A80036" fill="#000000"></path>
+            <text id="13" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="413" y="614.0552">13</tspan>
+            </text>
+            <text id="Spend-BTC-with-Bob's-key-&amp;-x" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="435" y="614.0552">Spend BTC with Bob's key &amp; x</tspan>
+            </text>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="660 590.4219 660 630.4219 763 630.4219 763 600.4219 753 590.4219 660 590.4219"></polyline>
+            <polyline id="Path" stroke="#A80036" fill="#FBFB77" points="753 590.4219 753 600.4219 763 600.4219 753 590.4219"></polyline>
+            <text id="Bob-receives" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="666" y="607.4888">Bob receives</tspan>
+            </text>
+            <text id="his-BTC" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal">
+                <tspan x="666" y="622.6216">his BTC</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
